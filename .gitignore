@@ -1,0 +1,22 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local editor and operating-system files
+.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local ONNX model files
+models/*.onnx
+
+# Generated biometric data and alignment previews
+data/db/*
+data/debug_aligned/*
+data/enroll/*

@@ -1,0 +1,42 @@
+{
+  "frames": 300,
+  "duration_s": 9.97,
+  "state_time_pct": {
+    "CONFIRMED": 78.7,
+    "TEMPORARY": 21.3,
+    "UNKNOWN": 0.0
+  },
+  "state_transitions": 2,
+  "honesty": {
+    "wrong_frames": 0,
+    "wrong_confirmed": 0,
+    "wrong_temporary": 0,
+    "wrong_unknown": 0,
+    "confidently_wrong_rate": null
+  },
+  "events": [
+    {
+      "event": "head_turn",
+      "start": 3.0,
+      "end": 5.97,
+      "duration_s": 2.97,
+      "identity_kept_frac": 1.0,
+      "went_unknown": false,
+      "longest_temporary_s": 2.1,
+      "reconfirm_after_end_s": 0.07,
+      "wrong_frames": 0,
+      "wrong_confirmed": 0
+    }
+  ],
+  "decay": {
+    "n_stretches": 1,
+    "median_tau_s": 4.13
+  },
+  "centring": {
+    "locked_frames": 300,
+    "mean_abs_err_x": 0.028,
+    "mean_abs_err_y": 0.032,
+    "pct_inside_dead_zone": 95.0,
+    "command_changes_per_min": 12.0
+  }
+}

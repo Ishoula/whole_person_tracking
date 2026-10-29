@@ -1,0 +1,25 @@
+{
+  "frames": 15,
+  "duration_s": 0.47,
+  "state_time_pct": {
+    "CONFIRMED": 0.0,
+    "TEMPORARY": 0.0,
+    "UNKNOWN": 100.0
+  },
+  "state_transitions": 0,
+  "honesty": {
+    "wrong_frames": 0,
+    "wrong_confirmed": 0,
+    "wrong_temporary": 0,
+    "wrong_unknown": 0,
+    "confidently_wrong_rate": null
+  },
+  "events": [],
+  "decay": {
+    "n_stretches": 0,
+    "median_tau_s": null
+  },
+  "centring": {
+    "locked_frames": 0
+  }
+}

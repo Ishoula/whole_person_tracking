@@ -1,0 +1,42 @@
+{
+  "frames": 360,
+  "duration_s": 11.97,
+  "state_time_pct": {
+    "CONFIRMED": 86.9,
+    "TEMPORARY": 8.9,
+    "UNKNOWN": 4.2
+  },
+  "state_transitions": 3,
+  "honesty": {
+    "wrong_frames": 0,
+    "wrong_confirmed": 0,
+    "wrong_temporary": 0,
+    "wrong_unknown": 0,
+    "confidently_wrong_rate": null
+  },
+  "events": [
+    {
+      "event": "crossing",
+      "start": 4.5,
+      "end": 7.47,
+      "duration_s": 2.97,
+      "identity_kept_frac": 0.833,
+      "went_unknown": true,
+      "longest_temporary_s": 1.07,
+      "reconfirm_after_end_s": 0.0,
+      "wrong_frames": 0,
+      "wrong_confirmed": 0
+    }
+  ],
+  "decay": {
+    "n_stretches": 1,
+    "median_tau_s": 1.12
+  },
+  "centring": {
+    "locked_frames": 345,
+    "mean_abs_err_x": 0.131,
+    "mean_abs_err_y": 0.033,
+    "pct_inside_dead_zone": 38.8,
+    "command_changes_per_min": 25.1
+  }
+}
